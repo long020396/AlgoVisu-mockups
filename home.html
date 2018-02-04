@@ -5,22 +5,38 @@
     <title>Algorithm Visualizer</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    </style>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container-fluid" style="background-color: #2aabd2;">
-    <div class="row header">
+<div class="container-fluid">
+    <div class="row menu">
         <!--Put logo here-->
-        <div class="col-lg-4">
-            <a href="#" style="text-decoration: none; color: white"><h2 style="margin-bottom: 15px; margin-top: 15px">Algorithm Visualizer</h2></a>
+        <div class="col-lg-4 logo">
+            <a href="#"><h2 style="margin: 15px 0 15px 0;">Algorithm Visualizer</h2></a>
         </div>
         <div class="col-lg-4"></div>
         <div class="col-lg-4">
-            <div style="float: left; margin-right: 5px;"><a href="#" style="color: white"><h3 style="margin-bottom: 20px;">About</h3></a></div>
-            <div style="float: left; margin-right: 5px;"><a href="#" style="color: white"><h3 style="margin-bottom: 20px;">About</h3></a></div>
-            <div style="float: left; margin-right: 5px;"><a href="#" style="color: white"><h3 style="margin-bottom: 20px;">About</h3></a></div>
+            <div><a href="#"><h3>One</h3></a></div>
+            <div><a href="#"><h3>Two</h3></a></div>
+            <div><a href="#"><h3>Three</h3></a></div>
         </div>
+    </div>
+    <div class="row div-search">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <h1 style="text-align: center; font-family: 'Roboto Black';">Data structures</h1>
+            <form id="search-form">
+                <div class="input-group">
+                    <input type="text" id="search" class="form-control" placeholder="Search" name="search"/>
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-4"></div>
     </div>
 </div>
 </body>
