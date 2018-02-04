@@ -80,3 +80,7 @@
 #search-form {
     text-align: center;
 }
+
+.list-structures a {
+    text-decoration: none;
+}
