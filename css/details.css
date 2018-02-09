@@ -1,0 +1,17 @@
+.navigation-bar {
+    min-height: 70px !important;
+    background-color: #42A5F5 !important;
+}
+
+.navbar-header {
+    padding-top: 8px;
+}
+
+.logo {
+    font-size: 25px !important;
+    color: white !important;
+}
+
+.navbar-item {
+    color: white !important;
+}
